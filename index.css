@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+ 
+ body{
+    background-image: url(https://img.freepik.com/free-vector/white-background-gradient-modern-abstract-design-wave_343694-2337.jpg?w=2000);
+ }
+ .menu{
+    display:flex;
+    background-color: aliceblue;
+    justify-content: space-around;
+   align-items: center;
+   height: 50px;
+   border-bottom: rgb(59, 56, 56);
+   margin: 0 auto;
+
+}
+.logo{
+    background-color: rgb(67, 132, 109);
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.navbar{
+   width: 200px;
+}
+nav{
+
+    width: 200px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;}
+
+a{
+    text-decoration: none;
+    color: rgb(79, 78, 78);
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+img{
+    float: left;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+display: flex;
+justify-content: center;
+background-image: url(https://img.freepik.com/free-vector/white-background-gradient-modern-abstract-design-wave_343694-2337.jpg?w=2000);
+background-size: auto;
+}
+/* orta hissede sol divin baslangici */
+.left{
+    background-color: #fff;
+    width: 30%;
+    margin: 40px 20px;
+padding: 10px;
+}
+.left>h2{
+    color: #000;
+}
+
+/* orta sag hisse */
+.right{
+    background-color: #fff;
+    width: 20%;
+    height: 200px;
+    margin: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-direction: column;
+    
+}
+.right>h2{
+    color: #000;
+}
+.logo3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo3>img{
+    width: 80px;
+    height: 80px;
+    
+
+}
+/* ayaq hisse */
+.foot{
+    background-color: gray;
+    border-top: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight:bold
+}
